@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar dari Malas_Koding</title>
+
+    <style type="text/css">
+        h1{
+            color: orange;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .kotak{
+            padding: 50px;
+            width: 100px;
+            color: #fff;
+            margin: 10px;
+            background: orange;	
+        }
+ 
+        #kotak{
+            width: 400px;
+            color: #fff;
+            background: blue;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Paragraf</h2>
+    <p>ini merupakan penulisan paragraf pertama dalam dokument HTML</p>
+    <p>ini merupakan penulisan paragraf kedua dalam dokument HTML</p>
+
+    <p align="left">1. ini merupakan penulisan paragraf rata kiri dalam dokument HTML</p>
+    <p align="right">2. ini merupakan penulisan paragraf rata kanan dalam dokument HTML</p>
+    <p align="center">3. ini merupakan penulisan paragraf rata tengah dalam dokument HTML</p>
+    <p align="justify">4. ini merupakan penulisan paragraf rata kiri kanan dalam dokument HTML ini merupakan penulisan paragraf rata kiri kanan dalam dokument HTML ini merupakan penulisan paragraf rata kiri kanan dalam dokument HTML</p>
+ 
+    ini merupakan penulisan paragrah pertama </br>
+	ini merupakan penulisan paragrah kedua
+
+    <h2>Table</h2>
+    <table border="1">
+        <tr>
+            <td>baris 1 / kolom 1</td>
+            <td>baris 1 / kolom 2</td>
+            <td>baris 1 / kolom 3</td>
+        </tr>
+        <tr>
+            <td>baris 2 / kolom 1</td>
+            <td>baris 2 / kolom 2</td>
+            <td>baris 2 / kolom 3</td>
+        </tr>
+        <tr>
+            <td>baris 3/ kolom 1</td>
+            <td>baris 3/ kolom 2</td>
+            <td>baris 3/ kolom 3</td>
+        </tr>
+        <tr>
+            <td>baris 4/ kolom 1</td>
+            <td>baris 4/ kolom 2</td>
+            <td>baris 4/ kolom 3</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Badrul</td>
+            <td>Sumedang</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Andi</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Budi</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+
+    <h2>Hyperlink</h2>
+
+    <a href="target.html">klik disini</a><br>
+    
+    ini adalah contoh alamat absolute <a href="https://www.malasngoding.com/category/html/">klik disini</a><br>    
+    ini adalah contoh alamat alternatif <a href="target.html">klik disini</a>
+
+    <h2>list</h2>
+    
+    <li>belajar HTML</li>
+    <li>belajar PHP</li>	
+    
+    <ol>
+        <li>belajar HTML</li>
+        <li>belajar PHP</li>	
+    </ol>
+
+    <ul>
+        <li>belajar HTML</li>
+        <li>belajar PHP</li>	
+    </ul>
+
+    <h2>atribut form</h2>
+    <form>
+        atribut value : nilai value dapat dirubah<br>
+        Nama Depan : <input type="text" value="nama"><br/>
+        Nama Belakang : <input type="text">
+
+        <br><br>
+        atribut readonly : nilai value tidak dapat dirubah<br>
+    	Nama Depan : <input type="text" value="nama" readonly><br/>
+        Nama Belakang : <input type="text">   
+        
+        <br><br>
+        atribut disable : untuk menonaktifkan inputan<br>
+        Nama Depan :<input type="text" value="nama" disabled><br/>
+        Nama Belakang : <input type="text">
+        
+        <br><br>
+        atribut size : mengatur lebar kotak<br>
+        Nama Depan :<input type="text" value="nama" size="50"><br/>
+        Nama Belakang : <input type="text">
+        
+        <br><br>
+        atribut size : membatasi jumlah inputan <br>
+        Nama Depan :<input type="text" value="nama" maxlength="10"><br/>
+        Nama Belakang : <input type="text"> 
+        
+        <br><br>
+        atribut list : meanpilkan list <br>
+        <input list="browser" name="internet">
+        <datalist id="browser">
+        <option value="chrome">
+        <option value="mozilla">
+        <option value="opera">
+        </datalist>
+
+        <br><br>
+        atribut min & max <br>
+        max : <input type="date" name="day" max="1979-12-31"> <br>
+        min : <input type="date" name="day" min="2000-01-02">
+        
+        <br><br>
+         atribut placehorder : pengganti label field<br>
+         <input type="text" name="nama" placeholder="masukkan nama">
+    
+        <h2>menampilkan gambar</h2>
+        Menampilkan gambar pada HTML <br>
+        <img src="1.png">
+        <br><br>      
+        Menampilkan gambar pada HTML dan mengatur ukuran <br>
+	    <img src="1.png" height="300px" width="500px;">
+
+     
+        <h2>menghubungkan dengan css</h2>
+        <h1>Belajar HTML menghubungkan html dengan css</h1>
+
+        <h2>perbedaan class dengan id</h2>
+        <h3>class dipanggil pada css atau js dengan tanda "." (titik)</h3>
+        
+        <div class="kotak">kotak 1</div>
+        <div class="kotak">kotak 2</div>
+        <div class="kotak">kotak 3</div>
+             
+        <h3>id dipanggil pada css atau js dengan tanda "#" (pagar)</h3>
+
+        <!-- contoh penggunaan id -->
+        <div id="kotak">Kotak 4</div>
+    </form>
+</body>
+</html>
