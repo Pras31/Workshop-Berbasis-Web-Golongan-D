@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS FORM </title>
+
+    <style type="text/css">
+        .container{
+            width: 40%;
+            margin: auto;
+            background-color: #2d427d9d;
+            color: white;
+        }
+        .judul{
+            text-align: center;
+            font-family: 'Lucida Sans';
+            font-weight: bold;
+            padding-top: 50px;
+            font-size: 40px;
+        }
+        .table{
+            margin: auto;
+            padding-bottom: 20px;
+        }
+        .table td{
+            padding-top: 20px;
+        }
+        .input{
+            border-radius: 5px;
+        }
+        .button{
+            padding: 5px 20px;
+        }
+
+    </style>
+</head>
+<body background="1.png">
+    <div class="container">
+        <h1 class="judul">FORM DATA KASIR</h1>       
+        
+        <table class="table">   
+    <tr>
+        <td>ID KASIR</td>   
+        <td><input type="text" class="input" nexlength="100"  placeholder="ID"></td>
+    </tr>
+    <tr>
+        <td>NAMA KASIR</td>   
+        <td><input type="text" class="input" nexlength="100" placeholder="NAMA"></td>
+    </tr>
+    <tr>
+        <td>ALAMAT KASIR</td>   
+        <td>
+            <select name="alamat" class="input" size="1">
+            <option value="not">Pilih Alamat</option>
+            <option value="jbr">JEMBER</option>
+            <option value="bwi">BANYUWANGI</option>
+            <option value="bws">BONDOWOSO</option>
+
+        </td>
+    </tr>
+    <tr>
+        <td>TELEPON KASIR</td>   
+        <td><input type="text" class="input" nexlength="100" placeholder="Telepon"></td>
+    </tr>
+    <tr>
+        <td>STATUS</td>   
+        <td><input type="radio" name="status">PRIA
+        <input type="radio" name="status" id="">WANITA</td>
+    </tr>
+    <tr>
+        <td>USERNAME</td>   
+        <td><input type="text" class="input" nexlength="100" placeholder="Username"></td>
+    </tr>
+    <tr>
+        <td>PASSWORD</td>   
+        <td><input type="password" class="input" nexlength="100" ></td>
+    </tr>
+    <tr>
+        <TD><a href="target.html"><button class="button">Kirim</button></a></TD>
+    </tr>
+</table>    
+</div>
+</body>
+</html>
