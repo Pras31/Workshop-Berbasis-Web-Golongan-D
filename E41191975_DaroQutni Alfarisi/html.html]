@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Mahasiswa</title>
+	<link rel="stylesheet" type="text/css" href="gambris.css">
+</head>
+<body>
+
+<script type="text/javascript" src="saiku.js"></script>
+
+<div class="wadah" align="center">
+	<form name="sumber">
+		<h2>
+			Form Data Mahasiswa
+		</h2>
+		<hr width="100%">
+		<table border="0">
+			<tr>
+				<td ><b>NIM</b></td>
+				<td> : </td>
+				<td>
+					<input type="text" class="inputan" name="nim">
+				</td>
+			</tr>
+			<tr>
+				<td><b>Nama Lengkap</b></td>
+				<td> : </td>
+				<td>
+					<input type="text" class="inputan" name="nama">
+				</td>
+			</tr>
+			<tr>
+						<tr>
+				<td ><b>NIM</b></td>
+				<td> : </td>
+				<td>
+					<input type="text" class="inputan" name="nim">
+				</td>
+			</tr>
+			<tr>
+				<td><b>Nama Lengkap</b></td>
+				<td> : </td>
+				<td>
+					<input type="text" class="inputan" name="nama">
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					<button type="button" id="simpan" onclick="tampil()" class="btn"><b>SIMPAN</b></button>
+					<input type="reset" name="reset" class="reset" onclick="reseto()" value="RESET">
+				</td>
+			</tr>
+		</table>
+		<br>
+	</form>
+</div>
+
+<div class="hasil" id="hasil" align="center">
+	<h2>
+		Biodata Mahasiswa
+	</h2>
+	<hr width="100%">
+	<form name="hasil">
+		<table border="0">
+			<tr>
+				<td ><b>NIM</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_nim"></label>
+				</td>
+			</tr>
+			<tr>
+				<td ><b>Nama Lengkap</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_nama"></label>
+				</td>
+			</tr>
+			<tr>
+				<td  valign="top"><b>Program Studi</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_prodi"></label>
+				</td>
+			</tr>
+			<tr>
+				<td  valign="top"><b>Tanggal Lahir</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_tgl_lahir"></label>
+				</td>
+			</tr>
+			<tr>
+				<td  valign="top"><b>Jenis Kelamin</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_jk"></label>
+				</td>
+			</tr>
+			<tr>
+				<td ><b>Agama</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_agama"></label>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top"><b>Status</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_status"></label>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top"><b>Hobi</b></td>
+				<td valign="top"> : </td>
+				<td>
+					<label id="h_hobi"></label>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top"><b>Alamat</b></td>
+				<td> : </td>
+				<td>
+					<label id="h_alamat"></label>
+				</td>
+			</tr>
+		</table>
+		<br>
+	</form>
+</div>
+
+</body>
+</html>
